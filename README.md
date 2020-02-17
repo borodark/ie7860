@@ -236,7 +236,7 @@ model2.compile(loss='categorical_crossentropy', optimizer='rmsprop', metrics=['c
 # Fit keras model
 history2 = model2.fit(train, y_train_one_hot, epochs=64, validation_split = 0.20)
 ```
-The accuracy and loasses plots:
+The accuracy and losses plots:
 
 ![thy-loss-acc-2.png](thy-loss-acc-2.png)
 
@@ -255,5 +255,40 @@ categorical_accuracy :  0.9504084014002334
 #### The conclusion
 
 The 3 layer `16-32-16` network performs much better and does not collapse on 64 epocs.
+
+
+Manual design of NN is a tedious and time consuming process that requires knowladge and some lack.
+Let's explore the capabilities of [https://scikit-optimize.github.io/](https://scikit-optimize.github.io/)
+
+
+### Hyper-parameter turning using Scikit-Optimize 
+
+The Sonar Dataset notebook code is here:
+[https://github.com/borodark/ie7860/blob/master/HW2%20MLP%20Sonar%20SKOpt.ipynb](https://github.com/borodark/ie7860/blob/master/HW2%20MLP%20Sonar%20SKOpt.ipynb)
+
+#### Convergence Plot
+
+[sonar-hyper-conv.png](sonar-hyper-conv.png)
+
+#### Evaluations Plot
+[sonar-hyper-eval.png](sonar-hyper-eval.png)
+
+#### Objective Partial Dependence Plots
+[sonar-hyper-obj.png](sonar-hyper-obj.png)
+
+
+The suggested topology for two layers network:
+```
+Best score=-0.8333
+Best parameters:
+- dense_0_neurons=493
+- dense_1_neurons=435
+- dropout_rate=0.315912
+```
+
+These is rather large size of hydden layers.
+
+#### Running fit for suggested topology
+
 
 
