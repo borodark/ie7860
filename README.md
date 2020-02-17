@@ -342,7 +342,7 @@ The suggested topology performs better then manually selected `64-16-8` but wors
 
 The notebook code is here:
 
-[]()
+[https://github.com/borodark/ie7860/blob/master/HW2%20MLP%20Thyroid%20SKOpt.ipynb](https://github.com/borodark/ie7860/blob/master/HW2%20MLP%20Thyroid%20SKOpt.ipynb)
 
  * Convergence Plot
 
@@ -369,6 +369,25 @@ These is rather small size of hydden layers.
 #### Running the fit for suggested topology
 
 ```python3
+Train on 8598 samples, validate on 2150 samples
+Epoch 1/8
+8598/8598 [==============================] - 10s 1ms/step - loss: 0.9637 - categorical_accuracy: 0.4879 - val_loss: 0.6900 - val_categorical_accuracy: 0.7423
+Epoch 2/8
+8598/8598 [==============================] - 1s 132us/step - loss: 0.8220 - categorical_accuracy: 0.5562 - val_loss: 0.5559 - val_categorical_accuracy: 0.6726
+Epoch 3/8
+8598/8598 [==============================] - 1s 147us/step - loss: 0.7507 - categorical_accuracy: 0.5773 - val_loss: 0.5060 - val_categorical_accuracy: 0.6730
+Epoch 4/8
+8598/8598 [==============================] - 1s 130us/step - loss: 0.7158 - categorical_accuracy: 0.5801 - val_loss: 0.4812 - val_categorical_accuracy: 0.6753
+Epoch 5/8
+8598/8598 [==============================] - 1s 165us/step - loss: 0.7017 - categorical_accuracy: 0.5771 - val_loss: 0.4764 - val_categorical_accuracy: 0.6726
+Epoch 6/8
+8598/8598 [==============================] - 1s 170us/step - loss: 0.6868 - categorical_accuracy: 0.5825 - val_loss: 0.4714 - val_categorical_accuracy: 0.6758
+Epoch 7/8
+8598/8598 [==============================] - 1s 160us/step - loss: 0.6685 - categorical_accuracy: 0.5801 - val_loss: 0.4688 - val_categorical_accuracy: 0.6758
+Epoch 8/8
+8598/8598 [==============================] - 1s 149us/step - loss: 0.6604 - categorical_accuracy: 0.5770 - val_loss: 0.4643 - val_categorical_accuracy: 0.6772
+3428/3428 [==============================] - 0s 56us/step
+Test loss: 0.8766234653416147    Test accuracy: 0.0717619603528025
 ```
 
 The Losses and accuracy
