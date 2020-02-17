@@ -2,7 +2,7 @@
 
 by Igor Ostaptchenko AKA `igor_ost@wayne.edu`
 
-The MLP assignment expolores two datasets, one is highly unbalanced and another rather short. First the performance of manualy designed networks is evluated then the hyper-parameter turning is performed using Scikit-Optimize and results compared. 
+The MLP assignment explores two datasets, one is highly unbalanced and another rather short. First the performance of manually designed networks is evaluated then the hyper-parameter turning is performed using Scikit-Optimize and results compared. 
 
 ## Setup jupiter in virtial environment
 ```bash
@@ -54,7 +54,7 @@ TODO proper Oversampling
 * http://archive.ics.uci.edu/ml/datasets/Connectionist+Bench+(Sonar%2C+Mines+vs.+Rocks) more info 
 * http://fizyka.umk.pl/kis-old/projects/datasets.html#Sonar 
 
-The sonar dataset [sonar.csv](sonar.csv) contains data about patterns obtained by bouncing sonar signals off a metal cylinder at various angles and under various conditions and patterns obtained from rocks under similar conditions. The transmitted sonar signal is a frequency-modulated chirp, rising in frequency. The data set contains signals obtained from a variety of different aspect angles, spanning 90 degrees for the cylinder and 180 degrees for the rock.
+The sonar dataset [sonar.csv](sonar.csv) contains data about patterns obtained by bouncing sonar signals off of a metal cylinder at various angles and under various conditions and patterns obtained from rocks under similar conditions. The transmitted sonar signal is a frequency-modulated chirp, rising in frequency. The data set contains signals obtained from a variety of different aspect angles, spanning 90 degrees for the cylinder and 180 degrees for the rock.
 Each record has 60 features in the range 0.0 to 1.0.
 
 #### Density Plot of Training Dataset
@@ -80,7 +80,7 @@ Neural Networks vol 1, pages 75](http://rexa.info/paper/7257d06678a052c7cb6f1d08
 
 ## Manual Design of NN Model
 
-The number of features of the dataset may give some ideas on the possible network topology. We'll design a few topologies for each dataset and investgate performance. The nexrt chapter will use the  hyper-parameter turning.
+The number of features of the dataset may give some ideas on the possible network topology. We'll design a few topologies for each dataset and investigate performance. The next chapter will use the  hyper-parameter turning.
 
 ### Sonar NN design
 
@@ -89,7 +89,7 @@ The code is located here: [https://github.com/borodark/ie7860/blob/master/HW2%20
 The sonar data has 60 input features.
 
 
-####  The first desing is `60-64-16-1` 
+####  The first design is `60-64-16-1` 
 
 * 64 neurons in the first hidden layer
 * 16 neurons in the second hidden layer
@@ -186,12 +186,12 @@ The code is located here: [https://github.com/borodark/ie7860/blob/master/HW2%20
 The Thyroid data has 21 input features.
 
 
-####  The first desing is `21-32-32-1` 
+####  The first design is `21-32-32-1` 
 
 * 32 neurons in the first hidden layer
 * 32 neurons in the second hidden layer
 
-The design is not stable: the network collapses if more then 6 epocs is given.
+The design is not stable: the network collapses if more than 6 epocs is given.
 
 ##### The process of the fitting
 
@@ -259,7 +259,7 @@ categorical_accuracy :  0.9504084014002334
 The 3 layer `16-32-16` network performs much better and does not collapse on 64 epocs.
 
 
-Manual design of NN is a tedious and time consuming process that requires knowladge and some lack.
+Manual design of NN is a tedious and time consuming process that requires knowledge and some lack.
 Let's explore the capabilities of [https://scikit-optimize.github.io/](https://scikit-optimize.github.io/)
 
 
