@@ -268,13 +268,13 @@ The Sonar Dataset notebook code is here:
 
 #### Convergence Plot
 
-[sonar-hyper-conv.png](sonar-hyper-conv.png)
+![sonar-hyper-conv.png](sonar-hyper-conv.png)
 
 #### Evaluations Plot
-[sonar-hyper-eval.png](sonar-hyper-eval.png)
+![sonar-hyper-eval.png](sonar-hyper-eval.png)
 
 #### Objective Partial Dependence Plots
-[sonar-hyper-obj.png](sonar-hyper-obj.png)
+![sonar-hyper-obj.png](sonar-hyper-obj.png)
 
 
 The suggested topology for two layers network:
