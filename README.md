@@ -412,7 +412,7 @@ The suggested topology collapses on training and fails to perform on the test da
 
 #### The Thyroid Dataset: 3 deep layers model 
 
-I hhade performed another try setting up the model with 3 hidden layers
+I have performed another try setting up the model but with 3 hidden layers
 The notebook code is here: https://github.com/borodark/ie7860/blob/master/HW2%20MLP%20Thyroid%20SKOpt%203%20layers.ipynb
 
 The results are significantly better: 
