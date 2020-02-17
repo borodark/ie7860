@@ -215,4 +215,45 @@ categorical_accuracy :  0.9218203033838973
 ![thy-man-cf-1.png](thy-man-cf-1.png)
 
 
+####  The second desing is `21-16-32-16-1` 
+
+* 16 neurons in the first hidden layer
+* 32 neurons in the second hidden layer
+* 16 neurons in the third hidden layer
+
+Another change is use of `rmsprop` optimizer instead of `adam`.
+
+```python3
+# Define the keras model 21-16-32-16-1 MLP model
+model2 = Sequential()
+model2.add(Dense(16, input_dim=21, activation='relu'))
+model2.add(Dense(32, activation='relu'))
+model2.add(Dense(16, activation='sigmoid'))
+model2.add(Dense(3, activation='sigmoid'))
+
+# Compile the keras model
+model2.compile(loss='categorical_crossentropy', optimizer='rmsprop', metrics=['categorical_accuracy'])
+# Fit keras model
+history2 = model2.fit(train, y_train_one_hot, epochs=64, validation_split = 0.20)
+```
+The accuracy and loasses plots:
+
+![thy-loss-acc-2.png](thy-loss-acc-2.png)
+
+
+The results and confusion matrix:
+
+```
+loss :  0.22274850618860179
+
+categorical_accuracy :  0.9504084014002334
+```
+
+![thy-cf-2.png](thy-cf-2.png)
+
+
+#### The conclusion
+
+The 3 layer `16-32-16` network performs much better and does not collapse on 64 epocs.
+
 
