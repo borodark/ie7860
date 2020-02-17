@@ -1,4 +1,6 @@
-# HW 2 MLP ie7860
+# HW 2 MLP ie7860 
+
+by Igor Ostaptchenko AKA `igor_ost@wayne.edu`
 
 The MLP assignment expolores two datasets, one is highly unbalanced and another rather short. First the performance of manualy designed networks is evluated then the hyper-parameter turning is performed using Scikit-Optimize and results compared. 
 
@@ -263,17 +265,19 @@ Let's explore the capabilities of [https://scikit-optimize.github.io/](https://s
 
 ### Hyper-parameter turning using Scikit-Optimize 
 
-The Sonar Dataset notebook code is here:
+#### The Sonar Dataset
+
+The notebook code is here:
 [https://github.com/borodark/ie7860/blob/master/HW2%20MLP%20Sonar%20SKOpt.ipynb](https://github.com/borodark/ie7860/blob/master/HW2%20MLP%20Sonar%20SKOpt.ipynb)
 
-#### Convergence Plot
+ * Convergence Plot
 
 ![sonar-hyper-conv.png](sonar-hyper-conv.png)
 
-#### Evaluations Plot
+ * Evaluations Plot
 ![sonar-hyper-eval.png](sonar-hyper-eval.png)
 
-#### Objective Partial Dependence Plots
+ * Objective Partial Dependence Plots
 ![sonar-hyper-obj.png](sonar-hyper-obj.png)
 
 
@@ -332,4 +336,58 @@ The confusion matrix for the generated model
 #### Conclusion
 
 The suggested topology performs better then manually selected `64-16-8` but worse than manually selected  `64-16`
+
+
+#### The Thyroid Dataset
+
+The notebook code is here:
+
+[]()
+
+ * Convergence Plot
+
+![thy-hyper-conv.png](thy-hyper-conv.png)
+
+ * Evaluations Plot
+![thy-hyper-eval.png](thy-hyper-eval.png)
+
+ * Objective Partial Dependence Plots
+![thy-hyper-obj.png](thy-hyper-obj.png)
+
+
+The suggested topology for two layers network:
+```
+Best score=-0.8466
+Best parameters:
+- dense_0_neurons=51
+- dense_1_neurons=41
+- dropout_rate=0.628428
+```
+
+These is rather small size of hydden layers.
+
+#### Running the fit for suggested topology
+
+```python3
+```
+
+The Losses and accuracy
+
+![thy-hyper-loss-acc.png](thy-hyper-loss-acc.png)
+
+
+```
+loss :  0.8766234704187899
+categorical_accuracy :  0.0717619603484556
+```
+
+The confusion matrix for the generated model
+
+![thy-hyp-cf.png](thy-hyp-cf.png)
+
+
+#### Conclusion
+
+The suggested topology collapses on training and fails to perform on the test dataset at all. It is worse than both manually selected network topologies.
+
 
