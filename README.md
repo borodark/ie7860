@@ -410,3 +410,22 @@ The confusion matrix for the generated model
 The suggested topology collapses on training and fails to perform on the test dataset at all. It is worse than both manually selected network topologies.
 
 
+#### The Thyroid Dataset: 3 deep layers model 
+
+I hhade performed another try setting up the model with 3 hidden layers
+The notebook code is here: https://github.com/borodark/ie7860/blob/master/HW2%20MLP%20Thyroid%20SKOpt%203%20layers.ipynb
+
+The results are significantly better: 
+ - no collapse
+ - 3 layers with dropout:
+```
+Best score=-0.9586
+Best parameters:
+- dense_0_neurons=281
+- dense_1_neurons=204
+- dense_2_neurons=144
+- dropout_rate=0.139571
+```
+
+The confusion matrix for 3 layers model: 
+![thy-hyp-3-cf.png](thy-hyp-3-cf.png)
