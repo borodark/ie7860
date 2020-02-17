@@ -179,7 +179,7 @@ The 2 layer `64-16` network performs slightly better.
 
 ### Thyroid NN design
 
-The code is located here: [https://github.com/borodark/ie7860/blob/master/HW2%20MLP%20Thyroid.ipynb]()
+The code is located here: [https://github.com/borodark/ie7860/blob/master/HW2%20MLP%20Thyroid.ipynb](https://github.com/borodark/ie7860/blob/master/HW2%20MLP%20Thyroid.ipynb)
 
 The Thyroid data has 21 input features.
 
