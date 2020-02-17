@@ -316,7 +316,7 @@ print('Test loss:', score[0], '   Test accuracy:', score[1])
 
 The Losses and accuracy
 
-[sonar-hyper-loss-acc.png](sonar-hyper-loss-acc.png)
+![sonar-hyper-loss-acc.png](sonar-hyper-loss-acc.png)
 
 
 ```
@@ -326,4 +326,4 @@ acc :  0.8333333333333334
 
 The confusion matrix for the generated model
 
-[sonar-hyp-cf.png](sonar-hyp-cf.png)
+![sonar-hyp-cf.png](sonar-hyp-cf.png)
