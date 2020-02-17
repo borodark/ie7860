@@ -327,3 +327,9 @@ acc :  0.8333333333333334
 The confusion matrix for the generated model
 
 ![sonar-hyp-cf.png](sonar-hyp-cf.png)
+
+
+#### Conclusion
+
+The suggested topology performs better then manually selected `64-16-8` but worse than manually selected  `64-16`
+
