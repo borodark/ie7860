@@ -288,7 +288,42 @@ Best parameters:
 
 These is rather large size of hydden layers.
 
-#### Running fit for suggested topology
+#### Running the fit for suggested topology
+
+```python3
+# Create the model using a specified hyperparameters.
+
+# Get best hyper-parameters
+dense_0_neurons=results_gp.x[0]; dense_1_neurons=results_gp.x[1]; dropout_rate=results_gp.x[2]
+
+# Build 
+model = get_model(dense_0_neurons, dense_1_neurons, dropout_rate, num_features, num_classes)
+
+# Compile the keras model for a specified number of epochs.
+model.compile(loss='binary_crossentropy',
+                  optimizer='adam',
+                  metrics=['accuracy'])
+
+# Fit keras model
+history = model.fit(X_train, y_train_one_hot, epochs=16, batch_size=8, 
+                        validation_split = 0.20, verbose=1)
+
+# Evaluate the model with the eval dataset.
+score = model.evaluate(X_test, y_test_one_hot,
+                                  batch_size=8, verbose=1)
+print('Test loss:', score[0], '   Test accuracy:', score[1])
+```
+
+The Losses and accuracy
+
+[sonar-hyper-loss-acc.png](sonar-hyper-loss-acc.png)
 
 
+```
+loss :  0.5081537847145228
+acc :  0.8333333333333334
+```
 
+The confusion matrix for the generated model
+
+[sonar-hyp-cf.png](sonar-hyp-cf.png)
