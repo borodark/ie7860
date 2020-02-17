@@ -132,7 +132,9 @@ for name, value in zip(model.metrics_names, baseline_results):
 
 plot_cm(y_test_one_hot, y_test_predictions)
 ```
+
 The results and confusion matrix is as follows.
+
 ```
 loss :  0.58803293892289
 
@@ -157,5 +159,60 @@ The Losses during the process
 The Binary Accuracy during the process
 
 ![sonar-man-bin-acc2.png](sonar-man-bin-acc2.png)
+
+
+
+The results and confusion matrix is as follows.
+
+```
+loss :  0.4862921335512683
+
+binary_accuracy :  0.8095238095238095
+```
+
+![sonar-man-cf-2.png](sonar-man-cf-2.png)
+
+
+#### The conclusion
+
+The 2 layer `64-16` network performs slightly better.
+
+### Thyroid NN design
+
+The code is located here: [https://github.com/borodark/ie7860/blob/master/HW2%20MLP%20Thyroid.ipynb]()
+
+The Thyroid data has 21 input features.
+
+
+####  The first desing is `21-32-32-1` 
+
+* 32 neurons in the first hidden layer
+* 32 neurons in the second hidden layer
+
+The design is not stable: the network collapses if more then 6 epocs is given.
+
+##### The process of the fitting
+
+The performance reached on during 5 epocs is not spectacular!
+
+The Losses during the process
+
+![thy-man-loss1.png](thy-man-loss1.png)
+
+The Binary Accuracy during the process
+
+![thy-man-bin-acc1.png](thy-man-bin-acc1.png)
+
+
+The results and confusion matrix is as follows.
+
+```
+loss :  0.2882766517508153
+
+categorical_accuracy :  0.9218203033838973
+```
+
+![thy-man-cf-1.png](thy-man-cf-1.png)
+
 
 
