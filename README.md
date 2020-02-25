@@ -10,6 +10,9 @@ python3 -m venv ds
 . ds/bin/activate
 pip install --upgrade pip
 pip install -r req.txt 
+pip uninstall umap-learn
+pip install umap-learn
+pip install umap
 jupyter nbextension enable --py --sys-prefix ipympl
 jupyter notebook &
 ```
