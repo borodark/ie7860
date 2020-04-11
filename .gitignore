@@ -130,4 +130,4 @@ dmypy.json
 ds
 data
 *.npz
-/*.DS_Store
+**/.DS_Store
