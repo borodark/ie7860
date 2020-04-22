@@ -9,8 +9,8 @@ FROM nvidia/cuda:10.1-cudnn7-devel
 RUN apt-get update && apt-get install -y --no-install-recommends \
         cuda-samples-$CUDA_PKG_VERSION
     # rm -rf /var/lib/apt/lists/* && \
-RUN apt-get install -y python3.6-dev python3-pip mc git emacs-nox libxrender1 && pip3 install --upgrade pip setuptools
-COPY tensorflow/tensorflow_pkg/tensorflow-2.1.0-cp36-cp36m-linux_x86_64.whl /root
+RUN apt-get install -y python3.6-dev python3-pip mc git emacs-nox libxrender1 graphviz && pip3 install --upgrade pip setuptools
+COPY tensorflow-2.1.0-cp36-cp36m-linux_x86_64.whl /root
 COPY macprogpu.req /root
 WORKDIR /root
 RUN python3 -m pip install --upgrade tensorflow-2.1.0-cp36-cp36m-linux_x86_64.whl && \
@@ -20,12 +20,6 @@ RUN python3 -m pip install --upgrade tensorflow-2.1.0-cp36-cp36m-linux_x86_64.wh
     python3 -m pip install -r macprogpu.req && \
     ln -s /usr/bin/python3 /usr/bin/python
 # set the working directory
-# TODO compile tenzorflow weith cuda compute 3.0 
-WORKDIR /usr/local/cuda/samples/1_Utilities/deviceQuery
+# DONE compile tenzorflow weith cuda compute 3.0 
 # jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
-RUN make
-
-# CMD defines the default command to be run in the container 
-# CMD is overridden by supplying a command + arguments to 
-# `docker run`, e.g. `nvcc --version` or `bash`
-CMD ./deviceQuery
+ENTRYPOINT ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0" , "--allow-root"]
