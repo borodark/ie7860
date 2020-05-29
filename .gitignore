@@ -131,3 +131,4 @@ ds
 data
 *.npz
 **/.DS_Store
+Fafnir\ Data\ Shaping*
