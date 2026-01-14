@@ -31,8 +31,7 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
 
 
 ## Boltzmann machines
-
-(especially RBMs) have been applied to:
+    (especially RBMs) have been applied to:
 
   - Unsupervised feature learning and dimensionality reduction
   - Collaborative filtering and recommender systems
@@ -43,3 +42,38 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
 
   Today they’re used less in mainstream production than VAEs/normalizing flows/diffusion models, but still show up in research and niche probabilistic
   modeling.
+
+### Converting problem at hand into a Boltzmann network with the right synaptic weights
+
+• It means they’ve encoded the problem as an energy landscape where good solutions correspond to low-energy states. With the “right” synaptic weights, the network’s dynamics (often stochastic) will tend to settle into those low-energy states, so sampling or running the network yields valid or optimal solutions with higher probability.
+
+###
+
+• Hopfield networks do not employ Boltzmann learning in the classic sense. They share the same energy-based framework and symmetric weights, but:
+  - Hopfield networks are deterministic (or use stochastic updates only for simulated annealing), while Boltzmann machines are explicitly stochastic.
+  - Hopfield learning typically uses Hebbian-style rules or gradient descent on an energy function for storing patterns, not the positive/negative phase sampling of Boltzmann learning.
+  - Boltzmann learning is designed to fit a probability distribution; Hopfield learning is designed to store and retrieve stable attractor patterns.
+  So they’re related conceptually via energy minimization, but Hopfield networks don’t use Boltzmann learning unless you specifically extend them into stochastic Boltzmann machines.
+
+
+### • Here are concise talking points on k-Nearest Neighbor (k-NN) algorithms:
+
+  - Non-parametric, instance-based method: no explicit training, predictions use stored data.
+  - Classification via majority vote of k closest points; regression via average/median of neighbors.
+  - Distance metric choice (Euclidean, cosine, Manhattan) strongly affects performance.
+  - k controls bias/variance: small k is sensitive to noise; large k smooths but can blur boundaries.
+  - Feature scaling is critical; unscaled features can dominate distance.
+  - Computationally heavy at query time; indexing structures or approximate NN can help.
+  - Works best with locally smooth decision boundaries; struggles in high dimensions.
+
+### • “Memory”-based learning (also called instance-based or lazy learning) refers to methods that store training examples and defer most computation until
+  prediction time.
+
+  Key characteristics:
+
+  - No explicit model is learned; the “model” is the dataset.
+  - Predictions use similarity to stored cases (e.g., k-NN).
+  - Highly flexible and adapts to complex decision boundaries.
+  - Sensitive to noise and irrelevant features; needs good distance metrics and scaling.
+  - Training is cheap, but inference can be slow without indexing/approximation.
+
