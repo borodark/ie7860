@@ -1,0 +1,23 @@
+# FROM defines the base image
+FROM nvidia/cuda:10.1-cudnn7-devel
+# nvidia/cuda:10.1-cudnn7-devel
+# RUN executes a shell command
+# You can chain multiple commands together with && 
+# A \ is used to split long lines to help with readability
+# This particular instruction installs the source files 
+# for deviceQuery by installing the CUDA samples via apt
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        cuda-samples-$CUDA_PKG_VERSION
+    # rm -rf /var/lib/apt/lists/* && \
+RUN apt-get install -y python3.6-dev python3-pip && pip3 install --upgrade pip setuptools
+RUN python3 -m pip install --upgrade tensorflow && \
+    python3 -m pip install jupyter keras 
+# set the working directory 
+WORKDIR /usr/local/cuda/samples/1_Utilities/deviceQuery
+# jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
+RUN make
+
+# CMD defines the default command to be run in the container 
+# CMD is overridden by supplying a command + arguments to 
+# `docker run`, e.g. `nvcc --version` or `bash`
+CMD ./deviceQuery

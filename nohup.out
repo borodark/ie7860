@@ -1,0 +1,178 @@
+[I 14:50:36.709 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+[I 14:50:37.246 NotebookApp] JupyterLab extension loaded from /usr/local/lib/python3.6/dist-packages/jupyterlab
+[I 14:50:37.246 NotebookApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 14:50:37.249 NotebookApp] Serving notebooks from local directory: /root/projects
+[I 14:50:37.249 NotebookApp] The Jupyter Notebook is running at:
+[I 14:50:37.249 NotebookApp] http://97f670e06fdc:8888/?token=f1d5546a57674c01cad3437cd5e41be8d2ab284e36c12834
+[I 14:50:37.249 NotebookApp]  or http://127.0.0.1:8888/?token=f1d5546a57674c01cad3437cd5e41be8d2ab284e36c12834
+[I 14:50:37.249 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 14:50:37.254 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///root/.local/share/jupyter/runtime/nbserver-1-open.html
+    Or copy and paste one of these URLs:
+        http://97f670e06fdc:8888/?token=f1d5546a57674c01cad3437cd5e41be8d2ab284e36c12834
+     or http://127.0.0.1:8888/?token=f1d5546a57674c01cad3437cd5e41be8d2ab284e36c12834
+[W 14:50:54.959 NotebookApp] Clearing invalid/expired login cookie username-192-168-1-11-8888
+[W 14:50:54.960 NotebookApp] Clearing invalid/expired login cookie username-192-168-1-11-8888
+[I 14:50:54.961 NotebookApp] 302 GET /notebooks/Fafnir%20Data%20Shaping.ipynb (192.168.1.12) 3.92ms
+[I 14:50:57.953 NotebookApp] 302 POST /login?next=%2Fnotebooks%2FFafnir%2520Data%2520Shaping.ipynb (192.168.1.12) 1.20ms
+[I 14:50:59.141 NotebookApp] Writing notebook-signing key to /root/.local/share/jupyter/notebook_secret
+[W 14:50:59.150 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 14:51:00.346 NotebookApp] Kernel started: bb83271b-7c2a-4ab4-b21c-0635a7393b09
+[I 14:53:00.406 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 14:53:00.407 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 14:55:00.545 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 14:55:00.546 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 15:33:00.403 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 15:33:00.404 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 15:35:00.402 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 15:35:00.403 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 15:39:00.400 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 15:39:00.402 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 15:44:45.344 NotebookApp] Kernel interrupted: bb83271b-7c2a-4ab4-b21c-0635a7393b09
+[I 15:45:00.410 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 15:45:00.412 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 15:46:00.735 NotebookApp] Kernel interrupted: bb83271b-7c2a-4ab4-b21c-0635a7393b09
+[I 15:47:00.392 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 15:47:00.394 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 15:47:06.488 NotebookApp] Kernel interrupted: bb83271b-7c2a-4ab4-b21c-0635a7393b09
+[I 15:47:07.892 NotebookApp] Kernel interrupted: bb83271b-7c2a-4ab4-b21c-0635a7393b09
+[I 15:49:00.405 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 15:49:00.406 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 15:51:00.400 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 15:51:00.401 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 15:52:15.056 NotebookApp] Kernel interrupted: bb83271b-7c2a-4ab4-b21c-0635a7393b09
+[I 15:52:46.253 NotebookApp] Kernel interrupted: bb83271b-7c2a-4ab4-b21c-0635a7393b09
+[I 15:53:00.402 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 15:53:00.404 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 15:55:00.399 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 15:55:00.400 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 16:03:00.407 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 16:03:00.408 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 16:05:00.402 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 16:05:00.403 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 16:07:00.404 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 16:07:00.406 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 16:09:00.388 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 16:09:00.390 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 16:09:40.230 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 16:09:40.231 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 16:11:00.396 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 16:11:00.398 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 16:13:00.404 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 16:13:00.405 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 16:15:00.402 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 16:15:00.403 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 16:17:00.387 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 16:17:00.389 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 16:19:00.544 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 16:19:00.546 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 16:21:00.400 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 16:21:00.401 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 16:47:00.405 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 16:47:00.406 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 16:49:00.391 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 16:49:00.392 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 16:51:00.962 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 16:51:00.964 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 16:53:00.398 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 16:53:00.400 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 16:53:23.045 NotebookApp] Kernel interrupted: bb83271b-7c2a-4ab4-b21c-0635a7393b09
+[I 16:55:00.336 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 16:55:00.336 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 16:57:00.323 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 16:57:00.324 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 16:59:00.348 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 16:59:00.349 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 17:01:00.372 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 17:01:00.373 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 17:03:00.403 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 17:03:00.407 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 17:05:00.404 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 17:05:00.406 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 17:07:00.334 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 17:07:00.335 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 17:09:00.359 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 17:09:00.360 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 17:11:00.396 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 17:11:00.397 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 17:11:40.350 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 17:11:40.351 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 17:17:00.395 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 17:17:00.396 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 17:19:00.395 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 17:19:00.396 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 17:21:00.384 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 17:21:00.385 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 17:23:00.392 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 17:23:00.393 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 17:29:00.398 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 17:29:00.399 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 18:04:20.939 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 18:04:20.940 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 18:05:40.707 NotebookApp] Copying Fafnir Data Shaping.ipynb to 
+[W 18:05:40.781 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[W 18:05:40.828 NotebookApp] Notebook Fafnir Data Shaping-Copy1.ipynb is not trusted
+[W 18:05:41.624 NotebookApp] Notebook Fafnir Data Shaping-Copy1.ipynb is not trusted
+[I 18:05:42.649 NotebookApp] Kernel started: edca99f1-6e7a-4c02-86e8-0b3b84f9d184
+[I 18:06:16.460 NotebookApp] Starting buffering for bb83271b-7c2a-4ab4-b21c-0635a7393b09:ab4cd1b73fec451c9d73d2f95cb0637e
+[I 18:06:16.466 NotebookApp] Kernel shutdown: bb83271b-7c2a-4ab4-b21c-0635a7393b09
+[I 18:06:59.358 NotebookApp] Kernel interrupted: edca99f1-6e7a-4c02-86e8-0b3b84f9d184
+[I 18:07:42.665 NotebookApp] Saving file at /Fafnir Data Shaping-Copy1.ipynb
+[W 18:07:42.665 NotebookApp] Notebook Fafnir Data Shaping-Copy1.ipynb is not trusted
+[I 18:09:42.666 NotebookApp] Saving file at /Fafnir Data Shaping-Copy1.ipynb
+[W 18:10:18.058 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 18:10:19.186 NotebookApp] Kernel started: eb4e2d3b-3e03-4b41-8f95-5924e02a5593
+[I 18:11:42.665 NotebookApp] Saving file at /Fafnir Data Shaping-Copy1.ipynb
+[I 18:13:42.660 NotebookApp] Saving file at /Fafnir Data Columnar Data.ipynb
+[I 18:15:43.464 NotebookApp] Saving file at /Fafnir Data Columnar Data.ipynb
+[I 18:19:43.450 NotebookApp] Saving file at /Fafnir Data Columnar Data.ipynb
+[I 18:20:38.134 NotebookApp] Saving file at /Fafnir Data Columnar Data.ipynb
+[I 18:20:51.635 NotebookApp] Saving file at /Fafnir Data Columnar Data.ipynb
+[I 18:20:53.903 NotebookApp] Starting buffering for eb4e2d3b-3e03-4b41-8f95-5924e02a5593:f28b4dca31aa495a8038ce9d7ab3215c
+[I 18:21:00.623 NotebookApp] Starting buffering for edca99f1-6e7a-4c02-86e8-0b3b84f9d184:5a46288dd8e9437e94e87bb409f5c093
+[I 18:21:00.628 NotebookApp] Kernel shutdown: edca99f1-6e7a-4c02-86e8-0b3b84f9d184
+[W 18:38:17.416 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 18:38:57.616 NotebookApp] Kernel started: 84fc6b25-205c-416d-bb5e-9cd31a5023e4
+[I 18:40:18.604 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 18:40:18.605 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 18:42:19.530 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 18:42:19.531 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 18:44:18.619 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 18:44:18.620 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 18:46:18.609 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 18:46:18.610 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 18:48:18.882 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 18:48:18.883 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 18:50:18.613 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 18:50:18.613 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 18:51:02.968 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 18:51:02.969 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 18:51:17.433 NotebookApp] Saving file at /Fafnir Data Shaping.ipynb
+[W 18:51:17.434 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[W 14:41:28.292 NotebookApp] WebSocket ping timeout after 119999 ms.
+[I 14:41:33.296 NotebookApp] Starting buffering for 84fc6b25-205c-416d-bb5e-9cd31a5023e4:b94e2a2c81664a3c8883198594a54e3d
+[W 14:41:48.578 NotebookApp] WebSocket ping timeout after 120000 ms.
+[I 14:41:53.580 NotebookApp] Starting buffering for eb4e2d3b-3e03-4b41-8f95-5924e02a5593:583c60e68da44f528f6430a84bb86f05
+[W 14:44:48.746 NotebookApp] Notebook Fafnir Data Shaping.ipynb is not trusted
+[I 16:42:37.918 NotebookApp] Starting buffering for eb4e2d3b-3e03-4b41-8f95-5924e02a5593:fa98d9a47e274ad595146c472fb833ad
+[I 16:42:37.923 NotebookApp] Starting buffering for 84fc6b25-205c-416d-bb5e-9cd31a5023e4:25e65459d796462680f3909c0c725025
+[W 16:47:05.343 NotebookApp] Forbidden
+[W 16:47:05.344 NotebookApp] 403 GET /api/config/notebook?_=1590943624228 (192.168.1.12) 0.92ms referer=http://192.168.1.11:8888/notebooks/Fafnir%20Data%20Columnar%20Data.ipynb
+[W 16:47:05.346 NotebookApp] Forbidden
+[W 16:47:05.347 NotebookApp] 403 GET /api/config/common?_=1590943624229 (192.168.1.12) 0.76ms referer=http://192.168.1.11:8888/notebooks/Fafnir%20Data%20Columnar%20Data.ipynb
+[W 16:47:05.362 NotebookApp] Forbidden
+[W 16:47:05.362 NotebookApp] 403 GET /api/config/notebook?_=1590943624615 (192.168.1.12) 0.75ms referer=http://192.168.1.11:8888/notebooks/Fafnir%20Data%20Shaping.ipynb
+[W 16:47:05.365 NotebookApp] Forbidden
+[W 16:47:05.365 NotebookApp] 403 GET /api/config/common?_=1590943624616 (192.168.1.12) 0.75ms referer=http://192.168.1.11:8888/notebooks/Fafnir%20Data%20Shaping.ipynb
+[W 16:47:05.401 NotebookApp] Forbidden
+[W 16:47:05.401 NotebookApp] 403 GET /api/kernelspecs (192.168.1.12) 0.75ms referer=http://192.168.1.11:8888/notebooks/Fafnir%20Data%20Columnar%20Data.ipynb
+[W 16:47:05.418 NotebookApp] Forbidden
+[W 16:47:05.419 NotebookApp] 403 GET /api/kernelspecs (192.168.1.12) 0.73ms referer=http://192.168.1.11:8888/notebooks/Fafnir%20Data%20Shaping.ipynb
+[W 16:47:05.530 NotebookApp] Forbidden
+[W 16:47:05.530 NotebookApp] 403 GET /api/contents/Fafnir%20Data%20Columnar%20Data.ipynb?type=notebook&_=1590943624230 (192.168.1.12) 0.80ms referer=http://192.168.1.11:8888/notebooks/Fafnir%20Data%20Columnar%20Data.ipynb
+[W 16:47:05.552 NotebookApp] Forbidden
+[W 16:47:05.552 NotebookApp] 403 GET /api/contents/Fafnir%20Data%20Shaping.ipynb?type=notebook&_=1590943624617 (192.168.1.12) 0.80ms referer=http://192.168.1.11:8888/notebooks/Fafnir%20Data%20Shaping.ipynb
+the input device is not a TTY
+the input device is not a TTY
